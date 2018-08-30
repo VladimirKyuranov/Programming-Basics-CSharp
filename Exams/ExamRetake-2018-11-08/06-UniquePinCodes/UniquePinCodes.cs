@@ -22,7 +22,7 @@ class UniquePinCodes
                         case 7:
                             if (firstNumber % 2 == 0 && thirdNumber % 2 == 0)
                             {
-                                Console.WriteLine($"{firstNumber}{secondNumber}{thirdNumber}");
+                                Console.WriteLine($"{firstNumber} {secondNumber} {thirdNumber}");
                             }
                             break;
                     }
