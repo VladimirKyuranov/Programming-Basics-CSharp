@@ -15,26 +15,34 @@ class ComputerRoom
             case "march":
             case "april":
             case "may":
-                if (dayTime == "day")
-                {
-                    price = 10.5;
-                }
-                else
-                {
-                    price = 8.4;
-                }
+                price = dayTime == "day" ? 10.5 : 8.4;
+
+                #region if else variant
+                //if (dayTime == "day")
+                //{
+                //    price = 10.5;
+                //}
+                //else
+                //{
+                //    price = 8.4;
+                //}
+                #endregion
                 break;
             case "june":
             case "july":
             case "august":
-                if (dayTime == "day")
-                {
-                    price = 12.6;
-                }
-                else
-                {
-                    price = 10.2;
-                }
+                price = dayTime == "day" ? 12.6 : 10.2;
+
+                #region if else variant
+                //if (dayTime == "day")
+                //{
+                //    price = 12.6;
+                //}
+                //else
+                //{
+                //    price = 10.2;
+                //}
+                #endregion
                 break;
             default:
                 break;
