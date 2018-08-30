@@ -10,8 +10,7 @@ class ShoppingTime
         decimal whiteFrapsPrice = decimal.Parse(Console.ReadLine());
 
         int relaxTime = restTime - 15;
-        decimal moneySpent = 3 * peripherialPrice
-            + 2 * programPrice + whiteFrapsPrice;
+        decimal moneySpent = 3 * peripherialPrice + 2 * programPrice + whiteFrapsPrice;
 
         Console.WriteLine($"{moneySpent:F2}");
         Console.WriteLine(relaxTime);
