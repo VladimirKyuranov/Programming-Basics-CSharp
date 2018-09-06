@@ -12,7 +12,7 @@ class OnTimeForTheExam
         int examTImeInMinutes = examHour * 60 + examMinute;
         int arriveTimeInMinutes = arriveHour * 60 + arriveMinute;
         int differenceInMinutes = Math.Abs(examTImeInMinutes - arriveTimeInMinutes);
-        string difference = $"{differenceInMinutes.ToString()} minutes";
+        string difference = $"{differenceInMinutes} minutes";
 
         if (differenceInMinutes >= 60)
         {
