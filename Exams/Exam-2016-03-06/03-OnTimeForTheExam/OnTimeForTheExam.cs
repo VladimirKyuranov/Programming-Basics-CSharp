@@ -19,7 +19,7 @@ class OnTimeForTheExam
             difference = $"{differenceInMinutes / 60}:{differenceInMinutes % 60:D2} hours";
         }
 
-        if (examTImeInMinutes == arriveTimeInMinutes)
+        if (differenceInMinutes == 0)
         {
             Console.WriteLine("On time");
         }
