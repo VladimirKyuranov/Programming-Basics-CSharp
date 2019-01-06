@@ -34,6 +34,5 @@ class ComputerFirm
 
         Console.WriteLine($"{totalSales:F2}");
         Console.WriteLine($"{totalRating / computersCount:F2}");
-
     }
 }
